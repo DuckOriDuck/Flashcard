@@ -1,0 +1,24 @@
+UML 다이어그램 구성요소\ 사물, 관계, 다이어그램
+
+Association\2개 이상의 사물이 서로 관련되어 있음
+Aggregation\하나의 사물이 다른 사물에 포함되어 있음
+Composition\포함하는 사물의 변화가 포함되는 사물에 영향을 미침
+Generalization\사물이 다른 사물에 비해 더 일반적인지 구체적인지
+Dependency\필요에 의해 서로 영향을 주는 짧은 시간 동안만 연관을 유지
+Realization\사물이 할 수 있거나 해야 하는 기능으로 서로를 그룹화할 수 있음
+
+
+Class diagram\클래스 사이의 관계
+Object diagram\특정 시점의 객체와 객체 사이의 관계, 럼바우 객체 모델링
+Component diagram\컴포넌트 간의 인터페이스, 구현 단계
+Deployment diagram\물리적 요소들의 위치, 구현 단계
+Composite Structure diagram\복합구조를 갖는 경우 그 내부 구조 표현
+Package diagram\모델 요소들을 그룹화한 패키지들의 관계
+
+Use Case diagram\요구 분석, 사용자와 사용 사례로 구성
+Sequence diagram\객체들이 주고받는 메시지 표현
+Communication diagram\객체들 간의 연관까지 표현
+State diagram\객체의 상태 변화 표현, 럼바우 동적 모델링
+Activity diagram\조건에 따른 처리 흐름을 순서에 따라 표현
+Interaction Overview diagram\상호작용 다이어그램 간의 제어 흐름 표현
+Timing diagram\객체 상태 변화와 시간 제약을 명시적으로 표현
