@@ -13,7 +13,7 @@
 응집도 강한것부터 순서\Fuctional Sequential Commuication Procedrual Temporal Logical Coincidental\0
 모듈 내부 모든 구성 요소가 하나의 명확한 기능을 수행\Functional(기능적) Cohesion\1
 모듈 내에서 출력 -> 입력 순차 흐름이 있음\Sqeuential(순차적) Cohesion\1
-같은 데이터를 서로 다른 기능을 수행하는데 필요한구성 요소들이 모였을 때의 응집도\Communication(교환적) Cohesion\1
+같은 데이터를 서로 다른 기능을 수행하는데 필요한구성 요소들이 모였을 때의 응집도\Communication(교환적) Cohesion\
 관련된 기능들을 순서대로 수행\Procedural(절차적) Cohesion\1
 시간적 동시성만 있음\Temporal(시간적) Cohesion\1
 논리적 관련은 있으나 기능 선택에 따라 달라짐(if문 많음)\Logical(논리적) Cohesion\1

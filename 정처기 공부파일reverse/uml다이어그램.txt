@@ -1,22 +1,24 @@
-UML 다이어그램 구성요소\사물, 관계, 다이어그램\0
-UML에 표현되는 사물의 하나\Class\
-2개 이상의 사물이 서로 관련되어 있음\Association\0
+UML 다이어그램 구성요소\사물, 관계, 다이어그램\1
+UML에 표현되는 사물의 하나\Class\1
+2개 이상의 사물이 서로 관련되어 있음\Association\1
 하나의 사물이 다른 사물에 포함되어 있음\Aggregation\1
-포함하는 사물의 변화가 포함되는 사물에 영향을 미침\Composition\
-사물이 다른 사물에 비해 더 일반적인지 구체적인지\Generalization\
-필요에 의해 서로 영향을 주는 짧은 시간 동안만 연관을 유지\Dependency\
-사물이 할 수 있거나 해야 하는 기능으로 서로를 그룹화할 수 있음\Realization\
-클래스 사이의 관계\Class diagram\
-UML에 표현되는 사물의 하나로, 객체가 갖는 속성과 동작을 표현.\인터페이스\
-특정 시점의 객체와 객체 사이의 관계, 럼바우 객체 모델링\Object diagram\
-컴포넌트 간의 인터페이스, 구현 단계\Component diagram\
-물리적 요소들의 위치, 구현 단계\Deployment diagram\
-복합구조를 갖는 경우 그 내부 구조 표현\Composite Structure diagram\
-모델 요소들을 그룹화한 패키지들의 관계\Package diagram\
-요구 분석, 사용자와 사용 사례로 구성\Use Case diagram\
-객체들이 주고받는 메시지 표현\Sequence diagram\
-객체들 간의 연관까지 표현\Communication diagram\
-객체의 상태 변화 표현, 럼바우 동적 모델링\State diagram\
-조건에 따른 처리 흐름을 순서에 따라 표현\Activity diagram\
-상호작용 다이어그램 간의 제어 흐름 표현\Interaction Overview diagram\
-객체 상태 변화와 시간 제약을 명시적으로 표현\Timing diagram\
+포함하는 사물의 변화가 포함되는 사물에 영향을 미침\Composition\1
+사물이 다른 사물에 비해 더 일반적인지 구체적인지\Generalization\1
+필요에 의해 서로 영향을 주는 짧은 시간 동안만 연관을 유지\Dependency\1
+사물이 할 수 있거나 해야 하는 기능으로 서로를 그룹화할 수 있음\Realization\1
+UML에 표현되는 사물의 하나로, 객체가 갖는 속성과 동작을 표현.\인터페이스\0
+UML의 다이어그램 종류중 하나. 여러 객체간의 연관 구조를 나타냄.\Structure(구조적) diagram\1
+클래스 사이의 관계\Class diagram\1
+특정 시점의 객체와 객체 사이의 관계, 럼바우 객체 모델링\Object diagram\1
+컴포넌트 간의 인터페이스, 구현 단계\Component diagram\1
+물리적 요소들의 위치, 구현 단계\Deployment(배치) diagram\0
+복합구조를 갖는 경우 그 내부 구조 표현\Composite Structure(복합체 구조) diagram\1
+UML의 다이어그램중 하나. 사용자나 객체가 행하는 행위를 나타낸 다이어그램\행위적(Behavioral) 다이어그램\0
+모델 요소들을 그룹화한 패키지들의 관계\Package diagram\1
+요구 분석, 사용자와 사용 사례로 구성\Use Case diagram\1
+객체들이 주고받는 메시지 표현\Sequence diagram\0
+객체들 간의 연관까지 표현\Communication(커뮤니케이션) diagram\0
+객체의 상태 변화 표현, 럼바우 동적 모델링\State diagram\1
+조건에 따른 처리 흐름을 순서에 따라 표현\Activity(활동) diagram\0
+상호작용 다이어그램 간의 제어 흐름 표현\Interaction Overview diagram\0
+객체 상태 변화와 시간 제약을 명시적으로 표현\Timing diagram\0
