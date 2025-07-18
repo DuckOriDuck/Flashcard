@@ -15,5 +15,5 @@ MAC물리적 주소를 IP 주소로 변환하는 기능을 수행하는 프로�
 현재 가장 널리 사용되는 라우팅 프로토콜, 벨만포드 알고리즘 사용.\RIP(Route Information Protocol)\1
 RIP의 단점을 해결, 대규모 네트워크에서 많이 사용, 다익스트라 알고리즘 사용\OSPF(Open Shortest Path First Protocol)\1
 자율시스템간의 라우팅, 게이트웨이간의 라우팅에 사용되는 프로토콜\EGP(Exterior Gateway Protocol)\1
-EGP의 단점 보와 , 전체 경로 제어표를 만들고, 이후에는 변화된 정보만을 교환.\PGP(Boarder Gateway Protocol)\
-모듈간 통신 방식을 구현하기 위해 사용되는 대표적인 프로그래밍 인터페이스 집합. 공유 메모리, 소켓, 세마포어, 파이프, 메시지 큐잉 등등 존재\IPC(Inter-Process Communication)\0
+EGP의 단점 보완 , 전체 경로 제어표를 만들고, 이후에는 변화된 정보만을 교환.\BGP(Boarder Gateway Protocol)\1
+모듈간 통신 방식을 구현하기 위해 사용되는 대표적인 프로그래밍 인터페이스 집합. 공유 메모리, 소켓, 세마포어, 파이프, 메시지 큐잉 등등 존재\IPC(Inter-Process Communication)\
