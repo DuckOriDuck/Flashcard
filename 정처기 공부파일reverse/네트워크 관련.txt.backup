@@ -1,0 +1,19 @@
+네트워크 계층에서 IP 패킷 단위의 데이터 변조 방지 기능 제공 프로토콜 암/복호화 가능하게 양방향 암호화 사용\IPsec\1
+IPsec의 구성 요소\AH ESP\1
+TCP/IP 계층과 어플리케이션 계층 사이에서 인증, 암호화, 무결성 보장\SSL\1
+클라/서버 모든 메시지 암호화 하는 프로토콜\S-HTTP\0
+메시지를 일정한 길이의 패킷으로 잘라서 전송하는 방식\패킷교환방식\0
+단말기 상호 간에 논리적인 가상 통신을 미리 설정하여 송신지와 수신지 사이의 연결을 확실한 후에 설정된 경로를 따라 패킷들을 순서적으로 운반하는 방식. 정보 전송 전에 제어 패킷에 의해 경로가 설정된다.\가상 회선 방식\1
+연결경로를 설정하지 않고 인접한 노드들의 트래픽 상황을 감안하여 각각의 패킷들을 순서에 상관없이 독립적으로 운반하는 방식. 패킷마다 전송 경로가 다름. 목적지의 완전한 주소를 가지고있어야함. 수신 측에서 알아서 순서 맞춰야함.\데이터그램 방식\1
+ppp 패킷을 IP 패킷에 캡슐화하여 통과시키기 위한 터널링 프로토콜\PPTP(Point to Point Tunneling Protocol)\1
+인터넷을 통한 VPN 연결을 위해 개발된 터널링 프로토콜\L2F(Layer2 Forwarding)\1
+PPTP와 L2f의 기술적 장점들을 결합하여 만들어진 터널링 프로토콜\L2TP(LAYER 2 tenneling protocol)\1
+IP와 조합하여 통신중에 발생하는 오류의 처리와 전송 경로 변경등을 위한 제어 메시지를 관리하는 역할, 헤더가 8Byte\ICMP(Internet Control Message Protocol)\1
+호스트의 IP 주소를 네트워크 접속 장치의 물리적 주소 MAC로 변환하는 기능을 수행하는 프로토콜\ARP(Adress Resolution Protocol)\1
+MAC물리적 주소를 IP 주소로 변환하는 기능을 수행하는 프로토콜\RARP(Reverse Adress Resolution Protocol)\1
+내부 게이트웨이 프로토콜은 하나의 자율시스템 내의 라우팅에 사용되는 프로토콜\IGP(Internet Gateway Protocol)\1
+현재 가장 널리 사용되는 라우팅 프로토콜, 벨만포드 알고리즘 사용.\RIP(Route Information Protocol)\1
+RIP의 단점을 해결, 대규모 네트워크에서 많이 사용, 다익스트라 알고리즘 사용\OSPF(Open Shortest Path First Protocol)\1
+자율시스템간의 라우팅, 게이트웨이간의 라우팅에 사용되는 프로토콜\EGP(Exterior Gateway Protocol)\1
+EGP의 단점 보와 , 전체 경로 제어표를 만들고, 이후에는 변화된 정보만을 교환.\PGP(Boarder Gateway Protocol)\
+모듈간 통신 방식을 구현하기 위해 사용되는 대표적인 프로그래밍 인터페이스 집합. 공유 메모리, 소켓, 세마포어, 파이프, 메시지 큐잉 등등 존재\IPC(Inter-Process Communication)\0

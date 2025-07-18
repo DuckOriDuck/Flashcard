@@ -1,0 +1,20 @@
+모듈 간 관계의 느슨함\결합도\1
+결합도의 강도는 어떻게 해야 좋나\결합도의 강도는 약할수록 좋다. 모듈끼리 최대한 독립적이어야하기 때문\1
+결합도 약한것부터 순서\data(자료) stamp(스탬프) control(제어) external(외부) common(공통) content(내용)\0
+모듈간 데이터만 전달\Data(자료) Coupling\1
+구조체, 레코드 등 데이터 구조 전체 전달\Stamp(스탬프) Coupling\1
+제어용 플래그(True, false)를 넘김(내부 제어에 영향)\Control(제어) Coupling\1
+외부 장치에 데이터 공유 의존(DB, UI, 파일 등)\External(외부) Coupling\1
+공용 글로벌 변수 사용\Commom(공통) Coupling\1
+한 모듈이 다른 모듈 내부 접근\Content(내용) Coupling\1
+모듈 내 기능들의 통일성\응집도\0
+응집도는 어떻게 해야 좋나.\강할수록 좋다. 하나의 모듈이 하나의 책임만 갖게 하는 것\1
+결합도와 응집도는 무슨 관계?\반비례 관계\1
+응집도 강한것부터 순서\Fuctional Sequential Commuication Procedrual Temporal Logical Coincidental\0
+모듈 내부 모든 구성 요소가 하나의 명확한 기능을 수행\Functional(기능적) Cohesion\1
+모듈 내에서 출력 -> 입력 순차 흐름이 있음\Sqeuential(순차적) Cohesion\1
+같은 데이터를 서로 다른 기능을 수행하는데 필요한구성 요소들이 모였을 때의 응집도\Communication(교환적) Cohesion\
+관련된 기능들을 순서대로 수행\Procedural(절차적) Cohesion\1
+시간적 동시성만 있음\Temporal(시간적) Cohesion\1
+논리적 관련은 있으나 기능 선택에 따라 달라짐(if문 많음)\Logical(논리적) Cohesion\1
+무작위로 묶여있음\Coincidental Cohesion\1
